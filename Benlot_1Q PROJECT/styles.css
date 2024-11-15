@@ -10,6 +10,7 @@
 h1 {
 	font-size:35px;
 	color: white;
+	color: white;
 	padding:2em 1em 0em 2em;
 	background-color:
 	text-align: left;
@@ -35,7 +36,7 @@ h1 {
 .logo{
 	float:right;
 }
-.contact{
+section{
 	width: 220px;
 	margin:25px;
 	color:#075282;
@@ -60,6 +61,11 @@ li a{
 	background-color:#f7d851;
 	text-decoration:none;
 }
+
+a:hover{
+	background-color: white;
+
+}
 #link{
 	color:#075282;
 }
@@ -82,6 +88,11 @@ body {
 	
 	float: left;
 }
+
+div.images:hover{
+	transform: scale(1.1);
+}
+	
 
 
 /*/ paragraphs/*/
