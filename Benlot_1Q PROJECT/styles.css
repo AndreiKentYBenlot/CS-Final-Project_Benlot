@@ -36,6 +36,7 @@ h1 {
 .logo{
 	float:right;
 }
+
 section{
 	width: 220px;
 	margin:25px;
@@ -78,6 +79,12 @@ body {
 .images{
 	margin: 2em;
 	display: block;
+	transition-property: transform;
+	transition-duration: 0.3s;
+}
+div.images:hover{
+	transform: scale(1.1);
+
 }
 
 .images2{
@@ -89,9 +96,7 @@ body {
 	float: left;
 }
 
-div.images:hover{
-	transform: scale(1.1);
-}
+
 	
 
 
