@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>H2GO! - About Us</title>
+	<link rel="stylesheet" type="text/css" href="../styles.css">
+    <link rel="stylesheet" type="text/css" href="../styles_2.css">
+</head>
+<body>
+
+<div class="navbar">
+<!--site name and logo-->
+<header>
+    <div class="logo">
+    <img src="../IMAGES/water.png" alt="water droplet" height="135" width=auto>
+    </div>
+    <section>			
+        Gmail: H2GO@gmail.com
+        Contact Us at: 123123123123
+    </section>
+
+    <div class="sprite">
+        <div class="spritemail"></div>
+        <div class="spritecontact"></div>
+    </div>
+			
+</header>
+<nav>
+		<h1>H2GO!</h1>
+		<ul>
+			<li><a id="link" href="../HOME.html">Home</a></li>
+			<li><a id="link" href="../FILES/About us.html">About Us</a></li>
+			<li><a id="link" href="../FILES/Charities.html">Charities</a></li>
+			<li><a id="link" href="">Fun Fact about Water</a></li>
+			<li><a id="link" href="../FILES/Quiz.html">Fun Quiz</a></li>
+			<li><a id="link" href="">Options/Help</a></li>
+			<li><a id="link" href="../FILES/signup.html">Sign up!</a></li>
+            <li><a id="link" href="../FILES/profile.html">Profile</a></li>
+		</ul>
+
+</nav>
+</div>
+
+
+<div id="message">
+    <h4>H2GO! advocates for clean and safe water for the better good. The organization aligns with UN's SDG goals: 3-Good Health and Well-Being, 6-Clean Water and Sanitation, and 14-Life below water. By supporting the campaign, you will be able to connect with other members who also have the same mission, which is to save Earth's water.</h4></br>
+    <h4>We believe that with your help, we can help our home little by little.</h4>    
+</div>
+
+<div id="signup">
+        <form>
+        <!--indicate name-->
+            <h4> Enter your name <span>*</span></h4>
+            <label for="firstName">First Name: </label>
+            <input type="text" required id="firstName" name="firstName"><span class="required-msg">Required</span><br>
+            
+            <label for="lastName">Last Name: </label>
+            <input type="text" required id="lastName" name="lastName"><span class="required-msg">Required</span><br>
+
+        <!--indicate sex-->
+            <h4> Indicate your sex <span>*</span></h4>
+            <label for="male">Male</label>
+            <input type="radio" required id="male"  name="sex" value="Male"><br>
+
+            <label for="female">Female</label>
+            <input type="radio" required id="female"  name="sex" value="Female"><br>
+
+
+            <label for="notSay">Prefer not to say</label>
+            <input type="radio" required id="notSay"  name="sex" value="Prefer not to say"><br>
+
+        <!--indicate email add-->
+            <h4>Enter your Email address <span>*</span></h4>
+            <label for="emailAdd">Email address: </label>
+            <input type="text" required id="emailAdd" name="emailAdd"><span class="required-msg">Required</span><br>
+
+        <!--indicate password-->
+            <h4>Enter your password <span>*</span></h4>
+            <label for="pass">Password: </label>
+            <input type="password" required id="pass" name="pass"><span class="required-msg">Required</span><br>
+
+        <!--indicate contact number-->
+            <h4>Enter your contact number (optional)</h4>
+            <label for="contact">Contact number: </label>
+            <input type="text" id="contact" name="contact"><br> <!-- No required-msg here, since it's optional -->
+
+        <!--indicate reason-->  
+            <h4>Why do you support this campaign? <span>*</span></h4>
+            <label for="reason">State reason here</label><br>
+            <textarea id="reason" required name="reason" rows="4" cols="50"></textarea><span class="required-msg">Required</span><br>            
+        <!--submit and clear-->
+            <input type="submit" value="Sign up"><br>
+            <input type="reset" value="Clear">
+        </form> 
+</div>
+
+<script src="../FILES/java_2.js"></script>
+
+<footer>
+	Copyright &copy; 2015 H2GO!
+</footer>
+</body>
+</html>
